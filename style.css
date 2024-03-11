@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    width: 90%;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    /* background-color: #f2f2f2; */
+}
+.logoside{
+    display: flex;
+    align-items: center;
+}
+.logoside img{
+    width: 90px;
+}
+.logoside h1{
+    color: green;
+    font-size: 2.0rem;
+    margin-left: 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-right: 25px;
+}
+li:hover a{
+    color: green;
+}
+.halo{
+    color: red;
+}
+.btn button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#Home{
+    margin-top: 35px;
+    margin-left: 20px;
+    display: flex;
+}
+.home h1{
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+.home h1 span{
+    color: red;
+    font-size: 25px;
+}
+.home p{
+    margin-top: 5px;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+.icons{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.icons i{
+    margin-right: 20px;
+    color: black;
+    cursor: pointer;
+}
+.mmm{
+    margin-top: -15px;
+    margin-left: 30px;
+}
+.home p span{
+    font-weight: 700;
+    color: red;
+}
+.home button{
+    padding: 10px 40px;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.about{
+    margin-top: 50px;
+    text-align: center;
+}
+.about h1{
+    font-size: 30px;
+    color: black;
+}
+.about h1 span{
+    color: red;
+}
+.about p{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 18px;
+    color: black;
+}
